@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>Introduccion a CSS</title>
+<link rel="stylesheet" href="/assets/css/style.css">
+
+<!-- 
+    Tercera forma de agregar CSS a nuestro documento: Externa
+
+    Podemos agregar estilos CSS de forma externa, esto es, cargando un archivo CSS que se encuentre dentro de nuestros assets utilizando la etiqueta <link>. Se sugiere que los estilos se cargen al principio dentro de head. Este es el metodo más eficiente y sencillo de mantener, ya que el codigo CSS se encuentra separado del documento HTML, por lo que si se necesita modificar algun estilo, no compromese el código HTML.
+
+        rel: indica que el archivo vinculado es una hoja de estilo.
+        href: indica la direccion donde se encuentra el archivo.
+        type: indica el tipo de archivo, en HTML5 ya no es necesario utilizarlo.
+-->
+
+ 
+<!--Segunda forma de agregar CSS a nuestro documento: Dentro de etiqueta-->
+
+<style> p {color: rgb(255, 115, 0);font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;} </style>
+
+
+</head>
+<body>
+
+
+    <h1>Estoy aprendiendo estilos de CSS</h1>
+
+    <!--Primer forma de agregar CSS a nuestro documento: Interna-->
+
+    <p style="color: blue; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis tempore fugiat numquam magnam cupiditate soluta, vitae ratione accusamus, sunt laborum molestiae voluptatibus itaque beatae, sit illo sint voluptatum at deleniti.</p>
+
+    <p>Este es un segundo parrafo. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, eveniet! Minus, iusto magnam nam a atque <span>repellendus</span> qui repudiandae quo molestias. Quasi molestiae perspiciatis enim quam non debitis temporibus amet?</p>
+
+    <!--Salon de clases-->
+<h3 class="salon">Este es el salon de clases del grupo HTML 1 de GENERATION</h3>
+
+    <span id="adriana">Adriana</span>
+    <br>
+    <span id="adriana2">Adriana</span>
+    <br>
+    <span id="rodrigo">Rodrigo</span>
+    <br>
+    <span id="edgar">Edgar</span>
+    <br>
+    <span id="sandra">Sandra</span>
+<br>
+<br>
+<br>
+    <span class="generation" id="felipe">Felipe</span>
+    <span class="generation" id="ivonne">Ivonne</span>
+    <span class="generation" id="alonso">Alonso</span>
+    <span class="generation" id="briana">Briana</span>
+
+<br>
+<br>
+
+    <div class="paquete">Hola! Soy un paquete de alto valor que esta dentro de una caja y me van a enviar por paqueteria</div>
+
+    <div class="paquete2">Hola! Soy un paquete de alto valor que esta dentro de una caja y me van a enviar por paqueteria</div>
+
+<br>
+<br>
+
+<div id="redessociales">
+        <button id="facebook">Facebook</button>
+        <button id="instagram">Instagram</button>
+        <button id="twitter">Twitter</button>
+        <button id="youtube">Youtube</button>
+</div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+</body>
+</html>

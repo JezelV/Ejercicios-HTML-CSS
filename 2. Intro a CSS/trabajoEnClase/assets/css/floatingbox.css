@@ -1,0 +1,44 @@
+body{
+    background-color: #eaeaea;
+}
+
+
+.cajaflotante{
+    margin: 40px; 
+    background-color: #ffffff;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #cccccc;
+    border-radius: 5px;
+    border-top: solid 0px;
+
+}
+
+.cabecera{
+    padding: 10px;
+    border-bottom: solid 1px #eeeeee;
+}
+.contenido{
+    padding: 10px;
+    border-bottom: solid 1px #eeeeee;
+}
+
+.botones{
+    padding: 10px;
+    border-top: 2px #eeeeee;
+}
+
+#botonaceptar{
+    background-color: #058efd;
+    border: 0px;
+    border-radius: 2px;
+    padding: 5px;
+    color: white;
+}
+#botoncancelar{
+    background-color: #aaaa;
+    border: 0px;
+    border-radius: 2px;
+    padding: 5px;
+    color: white;
+}
