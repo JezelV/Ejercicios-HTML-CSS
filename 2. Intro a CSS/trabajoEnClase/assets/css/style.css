@@ -37,8 +37,72 @@ Selectores
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.texto {
+    color: gray;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.tituloListaDesordenada {
+    color: green;
+}
+
+.tituloListaOrdenada {
+    color: red;
+}
+
+.tituloListaDescriptiva {
+    color: blue;
+}
+
+.descripcion {
+    color: darkmagenta;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.elemento {
+    font-size: 200%;
+}
+
+.elementoOrdenado {
+    color:darkcyan
+}
+
+.elementoDesordenado {
+    color: darkviolet;
+}
+
+.elementoConDescripcion {
+    color: gray;
+}
+
+.descripcionDelElemento {
+    color: green;
+    font-size: 150%;
+}
+
+.encabezado {
+    text-align: center;
+    font-size: 500%;
+}
+
+#encabezadoPrincipal {
+    color: cadetblue;
+}
+
+#encabezadoSecundario {
+    color: darkolivegreen;
+}
+
+.parrafo {
+    font-size: larger;
+}
+
+div {
+    background-color:rgb(6, 6, 37)
+}
+
 body{
-    background-color: rgb(196, 196, 201);
+    background-color: rgb(33, 33, 33);
 }
 
 #adriana{
@@ -95,7 +159,7 @@ body{
 }
 
 #facebook{
-    background-color: blue;
+    background-color: rgb(10, 10, 175);
     color: white;
     margin: 20px;
     padding: 20px;
@@ -103,7 +167,7 @@ body{
     border-radius: 10px;
 }
 #instagram{
-    background-color: rgb(176, 84, 252);
+    background-color: rgb(175, 40, 213);
     color: white;
     margin: 20px;
     padding: 20px;
@@ -120,7 +184,7 @@ body{
     border-radius: 10px;
 }
 #youtube{
-    background-color: rgb(255, 0, 0);
+    background-color: rgb(181, 6, 6);
     background-image: url(/assets/img/jujutsu.jpg);
     color: white;
     margin: 20px;
