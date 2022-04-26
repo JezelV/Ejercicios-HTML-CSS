@@ -1,0 +1,19 @@
+body {
+    background-color: darkgrey;
+}
+
+.nombres {
+    color: darkcyan;
+    text-shadow: #000 3px 3px;
+    font-size: 88px;
+    background-color:transparent;
+    text-align: right;
+}
+
+.descripcion {
+    font-size: xx-large;
+    text-shadow: #000 2px 2px 4px;
+    ;
+}
+
+
