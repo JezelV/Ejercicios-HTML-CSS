@@ -1,3 +1,3 @@
-# Ejercicios-HTML-CSS-y-JS
+# Ejercicios Front-End - HTML y CSS
 
-* Ejercicios y Proyectos HTML, CSS y JavaScript entregados en Generation
+* Ejercicios y Proyectos HTML y CSS entregados en Generation
